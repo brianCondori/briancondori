@@ -6,22 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Galeria</title>
 </head>
-
-<body class="galeriaFondo">
-    <header class="header">
-        <h1 class="header__nombreBanda">  Le Batt    </h1>
-        <nav class="header__nav">
-            <!-- lista no ordenada  -->
-            <ul>
-                 <li> <a href="../index.html"> Inicio </a></li>
-                 <li> <a href="./galeria.html" target="_blank"> Galeria</a></li>
-                 <li> <a href="./integrantes.html" target="_blank"> Integrantes</a></li>
-                 <li> <a href="./nuestra musica.html" target="_blank"> Nuestra musica</a></li> 
-                 <li> <a href="./contacto.html" target="_blank"> Contacto</a></li>
-            </ul>
-        </nav>
+<body>
+    <header class="conteiner-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-light col-12 fondo-nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="imagenLogo" src="../imagens/bateria de acarga.png" alt="logo de la banda">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./integrantes.html" target="_blank"> Integrantes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./nuestra musica.html" target="_blank">Nuestra Musica</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="./contacto.html" target="_blank">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>        
     </header>
     <main>
         <div>
@@ -29,32 +49,48 @@
 
             <h3 class="shows">shows en vivo </h3>
                 
-            <span class="blase"> fiesta bla$e </span> 
-                    
+            <span class="blase"> fiesta bla$e </span>             
         </div>           
-        <div class="imagenesGaleria">
-            <img class="imagenesCantando" src="https://images-ext-1.discordapp.net/external/3ui7b1NnFMApd_qlw3qut4HZZ0hZvckoaXyM52UwFp8/%3Fstp%3Ddst-jpg_e35_s1080x1080%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D104%26_nc_ohc%3Dce6AkgNw4DkAX8K2qg4%26edm%3DAJBgZrYBAAAA%26ccb%3D7-5%26oh%3D00_AT-GDOPPSlzI554V8Umy4Tu00RvXdZdKmV0dC0Rqh7PJ0Q%26oe%3D62E7F997%26_nc_sid%3D78c662/https/scontent.cdninstagram.com/v/t51.2885-15/251294385_611107553639284_3430154763312329775_n.jpg" alt=" flakko cantando"width="550px" height="400px">
-            <img class="imagenesCantando" src="https://images-ext-2.discordapp.net/external/1N-z5HwPT5djT37cW4fhxdZrqdTt8ymSBJIfu8JLZuo/%3Fstp%3Ddst-jpg_e35_s1080x1080%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D100%26_nc_ohc%3DwXVkhoECCmYAX8SlplJ%26edm%3DAJBgZrYBAAAA%26ccb%3D7-5%26oh%3D00_AT-1TrHkruofmxNxsrZMVgANEJTUy48Wx5Z_W8s1X-2ADQ%26oe%3D62E78994%26_nc_sid%3D78c662/https/scontent.cdninstagram.com/v/t51.2885-15/250926809_554775248951268_714943450704950751_n.jpg" alt="joven dolla cantando"width="550px" height="400px">
-            <img class="imagenesCantando" src="https://images-ext-1.discordapp.net/external/N4uAoAqyHfhn8jzItl5PVxPT0Fe6loohxRN90MBFHZg/%3Fstp%3Ddst-jpg_e35_s1080x1080%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D104%26_nc_ohc%3DFZPhgemABxkAX_sEE5Z%26edm%3DAJBgZrYBAAAA%26ccb%3D7-5%26oh%3D00_AT_8xzQfs8q-vMOKnqQTJTYY2DnK_DUILKhTnEfrYouPAA%26oe%3D62E68143%26_nc_sid%3D78c662/https/scontent.cdninstagram.com/v/t51.2885-15/252294972_673736403531484_5631372652173927373_n.jpg" alt="Channel4400 cantando"width="550px" height="400px">
-        </div>            
-    </main>      
-    <footer class="footer">
-        <h2 class="footerH2">ubicacion y donde encontrarnos</h2>
-        <span class="ubi">Joaquin V. Gonzales 2561 "la mansion"
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagens/big y 2kan cantando.jpg" class="d-block w-100 h-100" alt="joven dolla y 2kan cantando ">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagens/big.cantando.jpg" class="d-block w-100 h-100" alt="joven dolla cantando">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagens/robbi.cantando.jpg" class="d-block w-100 h-100" alt="flakko cantando">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>          
+    </main> 
+    <footer class="footerNew" >
+        <h2 >ubicacion y donde encontrarnos</h2>
+        <span >Joaquin V. Gonzales 2561 "la mansion"
             Salta Capital CP:4400
 
         </span>
-        <h3 class="somos">Somos le batt</h3>
-        <h4 class="redes">redes sociales </h4>
-        <div class="div">
-            <a href="https://twitter.com/lebatt_" target="_blank"> Twitter: Le Batt </a>
+        <h3 >Somos le batt</h3>
+        <h4 >redes sociales </h4>
+        <div>
+            <a class="linksRedes"  href="https://twitter.com/lebatt_" target="_blank"> Twitter: Le Batt </a>
             
-            <a href="https://www.facebook.com/profile.php?id=100067579890337" target="_blank">Facebook: Le Batt</a>
+            <a class="linksRedes" href="https://www.facebook.com/profile.php?id=100067579890337" target="_blank">Facebook: Le Batt</a>
             
-            <a href="https://www.instagram.com/lebatt_/?hl=es-la" target="_blank">Instagram: Le Batt </a>
+            <a class="linksRedes" href="https://www.instagram.com/lebatt_/?hl=es-la" target="_blank">Instagram: Le Batt </a>
             
-            <a href="https://www.youtube.com/channel/UCxYq6yZR123As0Y31ppTRIg" target="_blank"> Youtube:LeBatt </a>
+            <a class="linksRedes" href="https://www.youtube.com/channel/UCxYq6yZR123As0Y31ppTRIg" target="_blank"> Youtube:LeBatt </a>
         </div>
-    </footer>   
+    </footer>      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
