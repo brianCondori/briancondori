@@ -1,0 +1,135 @@
+@import  "./partials/variables/fonts","./partials/variables/colors" , "./partials/header", "./partials/footer" , "./partials/indexmain";
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+                                                                    /* page galeria*/
+
+#tituloGaleria{
+    color: rgb(226, 220, 220);
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    padding: 50px;
+    margin: 0px;
+}
+.shows{
+    color: rgb(226, 220, 220);
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    margin: 0px;
+    padding: 04px;
+    text-align: center;
+}
+.blase{
+    text-align: center;
+    display: block;
+    color: rgb(226, 220, 220);
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    margin: 0px;
+    padding: 07px;
+    width: 100%;
+    font-size: 100px;
+}
+.imagen3{
+    width: 1400px;
+    height: 800px;
+}
+
+                                                                /* fin de galeri */
+
+                                                            /* page integrantes */
+
+.integrantes{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    color: rgb(139, 119, 3);
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    margin: 0%;
+    padding: 5%;
+}
+ 
+.imagenesIntegrantes{
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    
+}
+.imagenesAlto{
+    width: 1000px;
+    height: 800px;
+}
+
+.nombresIntegrantes{
+    color: rgb(250, 253, 255);
+    text-align: center;
+}
+.biografiaIntegrantes{
+    color:  rgb(250, 253, 255) ;
+    text-align: center;
+    font-size: larger;    
+}
+                                                        /* fin page integrantes */
+
+                                                        /* page nuestra musica */
+.bodyNuestra{
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+}
+
+.canalesMusica{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+
+}
+.canalYoutube{
+
+    color: rgb(226, 220, 220);
+}
+.canalSpotify{
+    color: rgb(226, 220, 220);
+}
+                                                                            /* fin page musica */
+
+                                                                            /* page contacto */
+
+#tituloContacto{
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    color: rgb(226, 220, 220);
+    margin: 0%;
+    padding: 60px;
+    text-align: center;
+    font-size: 400%;
+}
+.colorFondo{
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    margin: 0%;
+}
+
+.formContac{
+    color: rgb(226, 220, 220);
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    border: 1px solid rgb(226, 220, 220);
+    width: fit-content;
+    margin: 0% 0% 0% 40%;
+    padding: 20px;   
+    font-size: 200%;
+}
+
+.subs{
+    color: rgb(226, 220, 220);
+    background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
+    border: 1px solid rgb(226, 220, 220);
+    width: 18.5%;
+    padding: 20px;
+    margin: 0% 0% 0% 40%;
+    font-size: 150%;
+}
+
+                                                                            /* fin de page contacto */

@@ -1,0 +1,29 @@
+.colorBarra{
+    color: $colorLetra !important;
+}
+.fondo-nav{
+    color: $colorLetra;
+    background-image: linear-gradient(to left, $colorGeneral)   
+}
+
+.imagenInicio{
+    display: flex;
+    justify-content: center;
+}
+
+.fondoMain{
+    background-image: linear-gradient(to left, $colorGeneral);
+}
+
+.imagenLogo{
+    width: 100px;
+    height: 50px;
+    &:hover{
+        width: 120px;
+    height: 75px;
+}
+}
+
+
+    
+
