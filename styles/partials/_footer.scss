@@ -1,13 +1,15 @@
 .footerNew{
+    padding: 100px;
     background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(68, 67, 60));
     color: rgb(220, 226, 232);
-    text-align: center;
+    @extend %flexRowEvenly
 }
                         
 .divFooter{
     a{
     list-style-type: none;    
     display: block;
-    color: rgb(220, 226, 232);
+    text-decoration: none;
+    color: map-get($colors, colorLetra );
     }
 }

@@ -1,18 +1,18 @@
+
 .colorBarra{
-    color: $colorLetra !important;
+    color: map-get($colors, colorLetra ) !important;
 }
 .fondo-nav{
-    color: $colorLetra;
-    background-image: linear-gradient(to left, $colorGeneral)   
+    color: map-get($colors , colorLetra );
+    background-image: linear-gradient(to left, map-get($colors, colorGeneral))   
 }
 
 .imagenInicio{
-    display: flex;
-    justify-content: center;
+    @include flex (flex, center)
 }
 
 .fondoMain{
-    background-image: linear-gradient(to left, $colorGeneral);
+    background-image: linear-gradient(to left, map-get($colors,colorGeneral));
 }
 
 .imagenLogo{
@@ -23,7 +23,3 @@
     height: 75px;
 }
 }
-
-
-    
-

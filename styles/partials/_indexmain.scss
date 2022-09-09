@@ -1,12 +1,11 @@
+
 #introduccion{
-    background-image: linear-gradient(to left, $colorGeneral);
-    color: $colorLetra;
-    font-style: normal;
+    background-image: linear-gradient(to left, map-get($colors,colorGeneral));
+    color: map-get($colors, colorLetra );
     font-size: 20px;
-    font-weight: 500px;
-    padding: 40px;
-    font-family:$colorTexto;
-    text-align: center;
+    font-family: map-get($fonts, fontPrincipal );
+    text-align: start;
     line-height: 30px;  
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 80px;
 }
